@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Traversée Corse 2027</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Corse">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0b5a63">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="icon" href="icon.png">
+<link rel="manifest" href="manifest.json">
+<style>
+:root{
+  --bg:#f3f6f7;--card:#ffffff;--ink:#0f2a30;--muted:#5b6f75;--line:#e0e8ea;
+  --sea:#0b5a63;--sea2:#138a96;--sky:#e3f3f4;--sand:#f6efe2;
+  --good:#16804a;--good-bg:#e5f5ec;--bad:#b4371f;--bad-bg:#fbeae6;--warn:#a85d00;--warn-bg:#fdf2e1;
+  --shadow:0 1px 2px rgba(15,42,48,.06),0 6px 20px rgba(15,42,48,.07);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0b1517;--card:#142326;--ink:#e7f0f1;--muted:#94a8ad;--line:#22373b;
+  --sea:#4fc0cb;--sea2:#7dd6de;--sky:#123236;--sand:#2a2618;
+  --good:#4cc68a;--good-bg:#12321f;--bad:#f08a72;--bad-bg:#3a1c16;--warn:#f0aa55;--warn-bg:#3a2a12;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.hero{background:linear-gradient(160deg,#08424a 0%,#0b5a63 45%,#138a96 100%);color:#fff;padding:calc(env(safe-area-inset-top) + 22px) 0 70px;position:relative;overflow:hidden}
+.hero svg.waves{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:46px}
+.hero h1{margin:0;font-size:1.65rem;letter-spacing:-.01em}
+.hero .sub{opacity:.88;margin-top:4px;font-size:.95rem}
+.hero .upd{opacity:.75;font-size:.82rem;margin-top:10px}
+.best{margin-top:-52px;position:relative;z-index:2}
+.bestcard{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:18px;display:grid;gap:12px;grid-template-columns:1fr auto;align-items:center}
+.ribbon{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--sea)}
+.bestcard h2{margin:4px 0 2px;font-size:1.15rem}
+.bestcard .when{color:var(--muted);font-size:.92rem}
+.bestprice{text-align:right}
+.bestprice .big{font-size:2rem;font-weight:800;color:var(--sea);line-height:1}
+.bestprice .small{color:var(--muted);font-size:.8rem}
+@media(max-width:560px){.bestcard{grid-template-columns:1fr}.bestprice{text-align:left}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 6px}
+.stat{background:var(--card);border-radius:14px;padding:10px 12px;box-shadow:var(--shadow)}
+.stat b{display:block;font-size:1.15rem}
+.stat span{color:var(--muted);font-size:.78rem}
+.alert{background:var(--good-bg);color:var(--good);border-radius:14px;padding:10px 14px;margin:12px 0;font-size:.92rem;display:flex;gap:10px}
+.filters{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:10px 0;margin:8px 0 4px}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:7px 13px;font:inherit;font-size:.88rem;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--sea);border-color:var(--sea);color:#fff}
+.sep{flex:0 0 1px;background:var(--line);margin:4px 2px}
+h2.sec{font-size:1.1rem;margin:22px 2px 4px}
+.count{color:var(--muted);font-size:.85rem;margin:0 2px 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+@media(max-width:400px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column}
+.card .top{padding:14px 16px 0;display:flex;gap:12px;align-items:flex-start}
+.date{flex:0 0 58px;text-align:center;border-radius:12px;background:var(--sky);color:var(--sea);padding:6px 0 5px}
+.date .d{font-size:1.45rem;font-weight:800;line-height:1}
+.date .m{font-size:.72rem;text-transform:uppercase;font-weight:700;letter-spacing:.05em}
+.date .w{font-size:.68rem;opacity:.8}
+.ttl{flex:1;min-width:0}
+.co{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.leg{font-size:1.05rem;font-weight:700;margin:1px 0 2px}
+.meta{color:var(--muted);font-size:.86rem}
+.trend{flex:0 0 auto;font-size:.75rem;font-weight:700;border-radius:99px;padding:3px 9px;background:var(--sky);color:var(--sea);white-space:nowrap}
+.trend.down{background:var(--good-bg);color:var(--good)}
+.trend.up{background:var(--bad-bg);color:var(--bad)}
+.trend.flat{background:var(--line);color:var(--muted)}
+.pricebox{margin:12px 16px 0;padding:12px;border-radius:14px;background:var(--bg);display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.total{font-size:1.5rem;font-weight:800;color:var(--sea)}
+.total small{font-size:.8rem;font-weight:500;color:var(--muted)}
+.st{font-size:.76rem;font-weight:700;border-radius:99px;padding:2px 8px;background:var(--line);color:var(--muted)}
+.st.ok{background:var(--good-bg);color:var(--good)}
+.st.dv{background:var(--warn-bg);color:var(--warn)}
+.st.ko{background:var(--bad-bg);color:var(--bad)}
+.inc{display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px 0}
+.inc span{font-size:.76rem;border-radius:8px;padding:3px 8px;background:var(--sand);color:var(--ink)}
+details.more{padding:8px 16px 0;font-size:.85rem;color:var(--muted)}
+details.more summary{cursor:pointer;color:var(--sea);font-weight:600;list-style:none}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::after{content:" ▾"}
+details.more[open] summary::after{content:" ▴"}
+details.more p{margin:6px 0}
+.actions{display:flex;gap:8px;padding:14px 16px 16px;margin-top:auto;flex-wrap:wrap}
+.btn{flex:1 1 auto;text-align:center;text-decoration:none;font-weight:700;font-size:.92rem;border-radius:12px;padding:11px 14px;border:1px solid var(--sea);color:var(--sea);background:transparent}
+.btn.primary{background:var(--sea);color:#fff}
+.bestcard .actions{padding:0;grid-column:1/-1}
+.empty{padding:28px 16px;text-align:center;color:var(--muted);background:var(--card);border-radius:18px}
+section.box{background:var(--card);border-radius:18px;box-shadow:var(--shadow);padding:16px;margin-top:22px}
+section.box h3{margin:0 0 8px;font-size:1.05rem}
+#chart{width:100%;height:auto;max-height:240px;display:block}
+.notes{margin:0;padding-left:18px;color:var(--muted);font-size:.88rem}
+.notes li{margin:4px 0}
+.foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;color:var(--muted);font-size:.85rem;margin:20px 0 calc(30px + env(safe-area-inset-bottom))}
+select{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="wrap">
+    <h1>⛴️ Traversée Corse — été 2027</h1>
+    <div class="sub">Aller 15–30 juillet · retour 15–30 août · 2 adultes · fourgon &gt; 2 m + remorque bateau (&gt; 10 m au total)</div>
+    <div class="upd" id="upd">Chargement…</div>
+  </div>
+  <svg class="waves" viewBox="0 0 1200 46" preserveAspectRatio="none" aria-hidden="true"><path d="M0 26 C150 6 300 46 450 26 S750 6 900 26 S1100 40 1200 22 V46 H0Z" fill="var(--bg)"/></svg>
+</div>
+<main class="wrap">
+  <div class="best" id="best"></div>
+  <div class="stats" id="stats"></div>
+  <div id="alerts"></div>
+  <div class="filters">
+    <div class="chips" id="chips">
+      <button class="chip" data-g="sort" data-v="prix" aria-pressed="true">Moins cher</button>
+      <button class="chip" data-g="sort" data-v="date" aria-pressed="false">Par date</button>
+      <span class="sep"></span>
+      <button class="chip" data-g="port" data-v="all" aria-pressed="true">Tous ports</button>
+      <button class="chip" data-g="port" data-v="marseille" aria-pressed="false">Marseille</button>
+      <button class="chip" data-g="port" data-v="toulon" aria-pressed="false">Toulon</button>
+      <button class="chip" data-g="port" data-v="nice" aria-pressed="false">Nice</button>
+      <span class="sep"></span>
+      <button class="chip" data-g="moment" data-v="all" aria-pressed="true">Jour + nuit</button>
+      <button class="chip" data-g="moment" data-v="jour" aria-pressed="false">☀️ De jour</button>
+      <button class="chip" data-g="moment" data-v="nuit" aria-pressed="false">🌙 De nuit</button>
+      <span class="sep"></span>
+      <button class="chip" data-g="prixok" data-v="1" aria-pressed="false">Avec prix seulement</button>
+    </div>
+  </div>
+  <h2 class="sec">➡️ Aller · continent → Corse (15–30 juillet)</h2>
+  <div class="count" id="countA"></div>
+  <div class="grid" id="listA"></div>
+  <h2 class="sec">⬅️ Retour · Corse → continent (15–30 août)</h2>
+  <div class="count" id="countR"></div>
+  <div class="grid" id="listR"></div>
+  <section class="box">
+    <h3>📉 Évolution du meilleur aller-retour</h3>
+    <svg id="chart" viewBox="0 0 800 200" role="img" aria-label="Évolution du meilleur prix aller-retour"></svg>
+  </section>
+  <section class="box">
+    <h3>ℹ️ À savoir</h3>
+    <ul class="notes" id="notes"></ul>
+  </section>
+  <div class="foot">
+    <label>Voir une veille précédente : <select id="run"></select></label>
+    <span>Rien n'est réservé automatiquement · les prix peuvent changer</span>
+  </div>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const eur=n=>(n==null||isNaN(n))?'—':Math.round(n).toLocaleString('fr-FR')+' €';
+const st={sort:'prix',port:'all',moment:'all',prixok:'0'};
+let data=null;
+async function j(u){const r=await fetch(u+'?t='+Date.now());if(!r.ok)throw new Error(u);return r.json()}
+function d(s){const [y,m,dd]=String(s).split('-').map(Number);return new Date(y,m-1,dd)}
+function fmtLong(s){return d(s).toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'})}
+const hasP=x=>typeof x.prix_total==='number'&&!isNaN(x.prix_total);
+function cheapest(list){return (list||[]).filter(hasP).sort((a,b)=>a.prix_total-b.prix_total)[0]}
+function trendClass(t){t=String(t||'');if(t.startsWith('▼'))return 'down';if(t.startsWith('▲'))return 'up';if(t.startsWith('='))return 'flat';return ''}
+function trendLabel(t){t=String(t||'');if(!t)return '';if(/^NOUVEAU/i.test(t))return 'Nouveau';if(t==='=')return 'Stable';return t}
+function statut(x){
+  const s=String(x.statut||'').toLowerCase();
+  if(/complet/.test(s))return '<span class="st ko">Complet</span>';
+  if(/devis|t[ée]l[ée]phone|agence/.test(s))return '<span class="st dv">Sur devis</span>';
+  if(/estim/.test(s))return '<span class="st dv">Estimation</span>';
+  if(/ouvert/.test(s)&&!hasP(x))return '<span class="st">Pas encore ouvert</span>';
+  if(hasP(x))return '<span class="st ok">Prix en ligne</span>';
+  return x.statut?`<span class="st">${esc(x.statut)}</span>`:'';
+}
+function legTitle(x){return `${esc(x.port_depart)} → ${esc(x.port_arrivee)}`}
+function card(x){
+  const dt=d(x.date),tl=trendLabel(x.tendance);
+  const more=[x.detail_prix?`<p>💶 ${esc(x.detail_prix)}</p>`:'',x.vehicule?`<p>🚐 ${esc(x.vehicule)}</p>`:'',x.remarque?`<p>${esc(x.remarque)}</p>`:''].join('');
+  const tags=[x.nuit?'🌙 Traversée de nuit':'☀️ Traversée de jour',x.hebergement,x.navire?('Navire : '+x.navire):''].filter(Boolean);
+  return `<article class="card">
+    <div class="top">
+      <div class="date"><div class="w">${dt.toLocaleDateString('fr-FR',{weekday:'short'})}</div><div class="d">${dt.getDate()}</div><div class="m">${dt.toLocaleDateString('fr-FR',{month:'short'}).replace('.','')}</div></div>
+      <div class="ttl"><div class="co">${esc(x.compagnie)}</div><div class="leg">${legTitle(x)}</div>
+        <div class="meta">${x.heure_depart?('Départ '+esc(x.heure_depart)):''}${x.heure_arrivee?(' · arrivée '+esc(x.heure_arrivee)):''}</div></div>
+      ${tl?`<span class="trend ${trendClass(x.tendance)}">${esc(tl)}</span>`:''}
+    </div>
+    <div class="pricebox"><div class="total">${hasP(x)?eur(x.prix_total):'—'} <small>2 pers. + fourgon + remorque</small></div>${statut(x)}</div>
+    <div class="inc">${tags.map(t=>`<span>${esc(t)}</span>`).join('')}</div>
+    ${more?`<details class="more"><summary>Détails</summary>${more}</details>`:''}
+    <div class="actions">${x.lien?`<a class="btn primary" href="${esc(x.lien)}" target="_blank" rel="noopener">Voir la traversée</a>`:''}</div>
+  </article>`;
+}
+function filt(list){
+  let o=(list||[]).slice();
+  if(st.port!=='all')o=o.filter(x=>(String(x.port_depart)+' '+String(x.port_arrivee)).toLowerCase().includes(st.port));
+  if(st.moment==='jour')o=o.filter(x=>!x.nuit);
+  if(st.moment==='nuit')o=o.filter(x=>x.nuit);
+  if(st.prixok==='1')o=o.filter(hasP);
+  o.sort((a,b)=>{
+    if(st.sort==='date')return String(a.date+a.heure_depart).localeCompare(b.date+b.heure_depart);
+    const pa=hasP(a)?a.prix_total:Infinity,pb=hasP(b)?b.prix_total:Infinity;return pa-pb||String(a.date).localeCompare(b.date);
+  });
+  return o;
+}
+function render(){
+  const A=data?.allers||[],R=data?.retours||[];
+  $('#upd').textContent=data?.date_veille?('Mise à jour le '+new Date(data.date_veille).toLocaleString('fr-FR',{weekday:'long',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'})):'Première veille demain matin';
+  const a=cheapest(A),r=cheapest(R);
+  if(a&&r){
+    $('#best').innerHTML=`<div class="bestcard">
+      <div><div class="ribbon">★ Meilleur aller-retour du jour</div>
+        <h2>Aller ${esc(a.compagnie)} · ${legTitle(a)}</h2><div class="when">${fmtLong(a.date)}${a.heure_depart?' à '+esc(a.heure_depart):''} · ${eur(a.prix_total)}</div>
+        <h2 style="margin-top:8px">Retour ${esc(r.compagnie)} · ${legTitle(r)}</h2><div class="when">${fmtLong(r.date)}${r.heure_depart?' à '+esc(r.heure_depart):''} · ${eur(r.prix_total)}</div></div>
+      <div class="bestprice"><div class="big">${eur(a.prix_total+r.prix_total)}</div><div class="small">aller + retour, 2 pers. + véhicule</div></div>
+      <div class="actions">${a.lien?`<a class="btn primary" href="${esc(a.lien)}" target="_blank" rel="noopener">Voir l'aller</a>`:''}${r.lien?`<a class="btn" href="${esc(r.lien)}" target="_blank" rel="noopener">Voir le retour</a>`:''}</div>
+    </div>`;
+  }else{
+    $('#best').innerHTML=`<div class="empty">${esc(data?.resume||'')||'Pas encore de prix pour l\'été 2027.'}<br><small>La veille continue chaque matin et prévient dès que des tarifs apparaissent.</small></div>`;
+  }
+  $('#stats').innerHTML=`<div class="stat"><b>${A.filter(hasP).length} / ${A.length}</b><span>allers avec prix</span></div><div class="stat"><b>${R.filter(hasP).length} / ${R.length}</b><span>retours avec prix</span></div><div class="stat"><b>${new Set([...A,...R].map(x=>x.compagnie)).size}</b><span>compagnies</span></div>`;
+  $('#alerts').innerHTML=(data?.alertes||[]).map(x=>`<div class="alert">🔔 <div>${esc(x)}</div></div>`).join('');
+  const oa=filt(A),or=filt(R);
+  $('#countA').textContent=`${oa.length} traversée${oa.length>1?'s':''}`;
+  $('#countR').textContent=`${or.length} traversée${or.length>1?'s':''}`;
+  $('#listA').innerHTML=oa.map(card).join('')||'<div class="empty">Aucune traversée aller relevée pour ces filtres.</div>';
+  $('#listR').innerHTML=or.map(card).join('')||'<div class="empty">Aucune traversée retour relevée pour ces filtres.</div>';
+  $('#notes').innerHTML=(data?.notes||[]).map(n=>`<li>${esc(n)}</li>`).join('')+'<li>Ajouter ce site à l\'écran d\'accueil de l\'iPhone : Safari → Partager → « Sur l\'écran d\'accueil ».</li>';
+}
+async function chart(){
+  let txt='';try{const r=await fetch('data/historique.csv?t='+Date.now());if(r.ok)txt=await r.text()}catch(e){}
+  const rows=txt.trim().split('\n').slice(1).map(l=>l.split(',')).filter(r=>r.length>=2&&r[1]!==''&&!isNaN(+r[1]));
+  const svg=$('#chart');
+  if(rows.length<2){svg.innerHTML='<text x="400" y="105" text-anchor="middle" fill="currentColor" opacity=".5" font-size="16">Le graphique apparaîtra après 2 veilles avec des prix</text>';return}
+  const v=rows.map(r=>+r[1]),mn=Math.min(...v)*.95,mx=Math.max(...v)*1.05||1,X=i=>50+i*(720/(v.length-1)),Y=y=>180-(y-mn)/((mx-mn)||1)*160;
+  svg.innerHTML=`<text x="6" y="22" font-size="12" fill="currentColor" opacity=".55">${eur(mx)}</text><text x="6" y="182" font-size="12" fill="currentColor" opacity=".55">${eur(mn)}</text>`+
+    `<polyline points="${v.map((y,i)=>X(i)+','+Y(y)).join(' ')}" fill="none" stroke="var(--sea)" stroke-width="2.5"/>`+
+    v.map((y,i)=>`<circle cx="${X(i)}" cy="${Y(y)}" r="3.5" fill="var(--sea)"><title>${rows[i][0]} : ${eur(y)}</title></circle>`).join('');
+}
+document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{
+  const g=b.dataset.g;
+  if(g==='prixok'){st.prixok=st.prixok==='1'?'0':'1';b.setAttribute('aria-pressed',st.prixok==='1');}
+  else{st[g]=b.dataset.v;document.querySelectorAll(`.chip[data-g="${g}"]`).forEach(c=>c.setAttribute('aria-pressed',c===b));}
+  render();
+});
+async function loadRuns(){
+  let runs=[];try{runs=await j('data/runs/index.json')}catch(e){}
+  const sel=$('#run');sel.innerHTML='<option value="latest">Dernière</option>'+runs.slice().reverse().map(x=>`<option value="${esc(x)}">${d(x).toLocaleDateString('fr-FR')}</option>`).join('');
+  sel.onchange=()=>load(sel.value);
+}
+async function load(w){try{data=await j(w==='latest'?'data/latest.json':`data/runs/${w}.json`)}catch(e){data=null}render()}
+loadRuns();load('latest');chart();
+</script>
+</body>
+</html>
