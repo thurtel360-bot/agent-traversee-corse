@@ -4,7 +4,7 @@ Site statique qui affiche la veille automatique des tarifs ferry **France contin
 
 - **Aller** : départ entre le **15 et le 30 juillet 2027** (Marseille, Toulon ou Nice → Ajaccio, Bastia, Calvi, L'Île-Rousse, Propriano, Porto-Vecchio).
 - **Retour** : départ de Corse entre le **15 et le 30 août 2027**.
-- **2 adultes** + **fourgon de plus de 2 m de haut tractant une remorque avec bateau**, **longueur totale de plus de 10 m**.
+- **2 adultes** + **fourgon de 6 m (plus de 2 m de haut) tractant une remorque avec bateau de 9 m**, soit **15 m au total**.
 - Compagnies : Corsica Ferries, Corsica Linea, La Méridionale (+ comparateurs).
 
 Fichiers :
