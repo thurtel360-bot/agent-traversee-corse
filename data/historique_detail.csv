@@ -39,3 +39,43 @@ date,sens,compagnie,date_traversee,heure_depart,port_depart,port_arrivee,heberge
 2026-11-03,retour,Corsica Linea,2027-08-23,18:00,Bastia,Marseille,—,complet,
 2026-11-03,retour,Corsica Linea,2027-08-26,18:00,Bastia,Marseille,—,complet,
 2026-11-03,retour,Corsica Linea,2027-08-30,18:00,Bastia,Marseille,—,complet,
+2026-11-04,aller,Corsica Linea,2027-07-21,18:45,Marseille,L'Île-Rousse,Cabine intérieure 2 pers.,en ligne,444.01
+2026-11-04,aller,Corsica Linea,2027-07-19,18:00,Marseille,Bastia,Cabine intérieure 2 pers.,en ligne,447.38
+2026-11-04,aller,Corsica Linea,2027-07-21,18:00,Marseille,Bastia,Cabine intérieure 2 pers.,en ligne,447.38
+2026-11-04,aller,Corsica Linea,2027-07-22,18:00,Marseille,Bastia,Cabine intérieure 2 pers.,en ligne,447.38
+2026-11-04,aller,Corsica Linea,2027-07-18,18:00,Marseille,Bastia,Cabine intérieure 2 pers.,en ligne,460.38
+2026-11-04,aller,Corsica Linea,2027-07-20,18:00,Marseille,Bastia,Cabine intérieure 2 pers.,en ligne,460.38
+2026-11-04,aller,Corsica Linea,2027-07-22,18:15,Marseille,Ajaccio,Cabine intérieure 2 pers.,en ligne,460.66
+2026-11-04,aller,Corsica Linea,2027-07-28,18:00,Marseille,Bastia,Cabine intérieure 2 pers.,en ligne,470.38
+2026-11-04,aller,Corsica Linea,2027-07-18,18:15,Marseille,Ajaccio,Cabine intérieure 2 pers.,en ligne,473.66
+2026-11-04,aller,Corsica Linea,2027-07-20,18:15,Marseille,Ajaccio,Cabine intérieure 2 pers.,en ligne,473.66
+2026-11-04,aller,Corsica Linea,2027-07-26,18:45,Marseille,L'Île-Rousse,Cabine intérieure 2 pers.,en ligne,523.01
+2026-11-04,aller,Corsica Linea,2027-07-28,18:45,Marseille,L'Île-Rousse,Cabine intérieure 2 pers.,en ligne,523.01
+2026-11-04,aller,La Méridionale,2027-07-16,17:30,Marseille,Porto-Vecchio,—,devis,
+2026-11-04,aller,Corsica Ferries,2027-07-18,19:00,Toulon,Bastia,—,devis,
+2026-11-04,aller,La Méridionale,2027-07-15,18:15,Marseille,Ajaccio,—,devis,
+2026-11-04,aller,Corsica Linea,2027-07-15,18:00,Marseille,Bastia,—,complet,
+2026-11-04,aller,La Méridionale,2027-07-17,18:15,Marseille,Ajaccio,—,devis,
+2026-11-04,aller,La Méridionale,2027-07-19,18:15,Marseille,Ajaccio,—,devis,
+2026-11-04,aller,Corsica Linea,2027-07-26,18:00,Marseille,Bastia,—,complet,
+2026-11-04,aller,Corsica Linea,2027-07-27,18:00,Marseille,Bastia,—,complet,
+2026-11-04,retour,Corsica Linea,2027-08-30,18:00,Ajaccio,Marseille,Cabine intérieure 2 pers.,en ligne,495.72
+2026-11-04,retour,Corsica Linea,2027-08-15,21:30,L'Île-Rousse,Marseille,Cabine intérieure 2 pers.,en ligne,527.91
+2026-11-04,retour,Corsica Linea,2027-08-15,18:00,Bastia,Marseille,Cabine intérieure 2 pers.,en ligne,530.74
+2026-11-04,retour,Corsica Linea,2027-08-16,18:00,Ajaccio,Marseille,Sans cabine,en ligne,555.72
+2026-11-04,retour,Corsica Linea,2027-08-19,18:00,L'Île-Rousse,Marseille,Sans cabine,en ligne,569.91
+2026-11-04,retour,Corsica Linea,2027-08-17,18:00,L'Île-Rousse,Marseille,Cabine intérieure 2 pers.,en ligne,632.91
+2026-11-04,retour,Corsica Linea,2027-08-24,18:00,L'Île-Rousse,Marseille,Cabine intérieure 2 pers.,en ligne,632.91
+2026-11-04,retour,Corsica Linea,2027-08-26,18:00,L'Île-Rousse,Marseille,Cabine intérieure 2 pers.,en ligne,632.91
+2026-11-04,retour,Corsica Linea,2027-08-17,18:00,Bastia,Marseille,Cabine intérieure 2 pers.,en ligne,635.74
+2026-11-04,retour,Corsica Linea,2027-08-24,18:00,Bastia,Marseille,Cabine intérieure 2 pers.,en ligne,635.74
+2026-11-04,retour,Corsica Linea,2027-08-26,18:00,Ajaccio,Marseille,Cabine intérieure 2 pers.,en ligne,650.72
+2026-11-04,retour,Corsica Linea,2027-08-17,18:00,Propriano,Marseille,Sans cabine,en ligne,792.19
+2026-11-04,retour,La Méridionale,2027-08-15,18:00,Ajaccio,Marseille,—,devis,
+2026-11-04,retour,Corsica Linea,2027-08-16,18:00,Bastia,Marseille,—,complet,
+2026-11-04,retour,La Méridionale,2027-08-17,18:00,Ajaccio,Marseille,—,devis,
+2026-11-04,retour,La Méridionale,2027-08-19,18:00,Ajaccio,Marseille,—,devis,
+2026-11-04,retour,Corsica Linea,2027-08-19,18:00,Bastia,Marseille,—,complet,
+2026-11-04,retour,Corsica Linea,2027-08-23,18:00,Bastia,Marseille,—,complet,
+2026-11-04,retour,Corsica Linea,2027-08-24,18:00,Ajaccio,Marseille,—,complet,
+2026-11-04,retour,Corsica Linea,2027-08-26,18:00,Bastia,Marseille,—,complet,
