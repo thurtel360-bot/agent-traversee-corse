@@ -1,24 +1,24 @@
 {
- "date_veille": "2026-11-10T07:27:14+01:00",
+ "date_veille": "2026-11-11T07:06:23+01:00",
  "resume": "Meilleur aller-retour relevé 939,73 € pour 2 adultes + fourgon + remorque bateau 9 m avec cabine (Corsica Linea Marseille→L'Île-Rousse 21/07 18:45 à 444,01 € + Corsica Linea Ajaccio→Marseille 30/08 18:00 à 495,72 €), inchangé par rapport au relevé précédent. Seule Corsica Linea (au départ de Marseille) accepte l'ensemble de 14,4 m en ligne ; La Méridionale et Corsica Ferries restent sur devis.",
  "alertes": [
-  "De nouveau réservable en ligne : Corsica Linea Bastia→Marseille 18/08 18:00 à 810,74 € (était « complet » au 05/11)"
+  "Devenu complet / refusé en ligne : Corsica Linea Bastia→Marseille 18/08 18:00 (était réservable à 810,74 € le 10/11)"
  ],
  "notes": [
-  "Relevé du 10/11/2026 (heure de Paris). Rien n'a été réservé ; aucune donnée personnelle saisie. Les prix sont ceux affichés au moment de la recherche et peuvent changer.",
-  "Corsica Linea (corsicalinea.com) : 44 traversées aller (15–30 juillet) et 44 retour (15–30 août) des lignes Marseille ↔ Ajaccio, Bastia, L'Île-Rousse, Propriano chiffrées une par une en saisissant Citroën JUMPER H2L2 diesel + élément tracté « bateau sur remorque » 9 m. Corsica Linea ne dessert pas Toulon ni Nice.",
-  "Ensemble refusé en ligne : 12 traversées Corsica Linea + toutes celles de l'Alba Nova (navire La Méridionale, qui refuse même le fourgon seul). Garages probablement pleins pour ce gabarit : réservez tôt ou appelez le 0825 88 80 88.",
+  "Relevé du 11/11/2026 (heure de Paris). Rien n'a été réservé ; aucune donnée personnelle saisie. Les prix sont ceux affichés au moment de la recherche et peuvent changer.",
+  "Corsica Linea (corsicalinea.com) : 46 traversées aller (15–30 juillet) et 45 retour (15–30 août) des lignes Marseille ↔ Ajaccio, Bastia, L'Île-Rousse, Propriano chiffrées une par une en saisissant Citroën JUMPER H2L2 diesel + élément tracté « bateau sur remorque » 9 m. Corsica Linea ne dessert pas Toulon ni Nice.",
+  "Ensemble refusé en ligne : 8 traversées aller et 6 retour Corsica Linea + toutes celles de l'Alba Nova (navire La Méridionale, qui refuse même le fourgon seul). Garages probablement pleins pour ce gabarit : réservez tôt ou appelez le 0825 88 80 88.",
   "Hypothèse : dimensions de la remorque + bateau non connues hors longueur → saisies H 2,5 m × l 2,5 m × L 9 m. Si votre bateau est plus large ou plus haut, le prix peut changer.",
   "Tarif retenu : « Tarif Standard » affiché à l'étape « Passagers, véhicules & installations » (avant toute donnée personnelle). Cabine : la cabine intérieure la moins chère disponible (souvent la 4 lits avec sanitaires, moins chère que la 2 lits), ajoutée dans le formulaire et total relu ; quand aucune cabine intérieure n'est disponible, prix sans cabine indiqué.",
-  "La Méridionale (Marseille–Ajaccio Alba Nova, Marseille–Porto-Vecchio Azura) : ensemble refusé en ligne → devis au 09 70 83 20 20 (Azura non revérifié depuis le 03/11).",
-  "Corsica Ferries (Toulon, Nice, Marseille…) : corsica-ferries.fr bloque toujours la navigation automatisée (Cloudflare, HTTP 403, 10/11). Ferryhopper n'accepte pas de remorque (véhicules ≤ 9 m) → devis à demander directement à Corsica Ferries.",
-  "Direct Ferries (directferries.fr) : bloqué (Cloudflare, HTTP 403, 10/11). aferry.fr : page d'accueil française en 404 (10/11).",
+  "La Méridionale (Marseille–Ajaccio Alba Nova, Marseille–Porto-Vecchio Azura) : ensemble refusé en ligne → devis au 09 70 83 20 20 (Alba Nova revérifiée aujourd'hui via Corsica Linea ; Azura non revérifié depuis le 03/11).",
+  "Corsica Ferries (Toulon, Nice, Marseille…) : corsica-ferries.fr bloque toujours la navigation automatisée (Cloudflare, HTTP 403, 11/11). Ferryhopper n'accepte pas de remorque (véhicules ≤ 9 m) → devis à demander directement à Corsica Ferries.",
+  "Direct Ferries (directferries.fr) : bloqué (Cloudflare, HTTP 403, 11/11). aferry.fr : page d'accueil en 404 (11/11).",
   "Le tableau ne montre que les traversées retenues (12 moins chères + devis/complets utiles) ; d'autres dates existent sur le site de la compagnie."
  ],
  "allers": [
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "aller",
    "date": "2027-07-21",
    "heure_depart": "18:45",
@@ -29,10 +29,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 444.01,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,20 € ; fourgon + remorque bateau 285,81 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 31,01 € ; sans cabine : 395,01 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,20 € ; fourgon + remorque bateau 285,81 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 31,01 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 395,01 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-21&passengers=ADULT,ADULT"
   },
   {
@@ -48,10 +48,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 447.38,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 € ; sans cabine : 398,38 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 398,38 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-19&passengers=ADULT,ADULT"
   },
   {
@@ -67,10 +67,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 447.38,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 € ; sans cabine : 398,38 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 398,38 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-21&passengers=ADULT,ADULT"
   },
   {
@@ -86,10 +86,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 447.38,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 2 lits bas - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 € ; sans cabine : 398,38 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 2 lits bas - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (2 lits bas - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (2 lits bas - intérieure) ; sans cabine : 398,38 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-22&passengers=ADULT,ADULT"
   },
   {
@@ -105,10 +105,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 460.38,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 € ; sans cabine : 398,38 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 398,38 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-18&passengers=ADULT,ADULT"
   },
   {
@@ -124,10 +124,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 460.38,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 € ; sans cabine : 398,38 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 100,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 398,38 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-20&passengers=ADULT,ADULT"
   },
   {
@@ -143,10 +143,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 460.66,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 105,56 € ; fourgon + remorque bateau 297,10 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 47,66 € ; sans cabine : 411,66 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 105,56 € ; fourgon + remorque bateau 297,10 € ; cabine 4 lits - intérieure 49,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 47,66 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 411,66 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-22&passengers=ADULT,ADULT"
   },
   {
@@ -162,10 +162,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 470.38,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 116,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 56,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 € ; sans cabine : 414,38 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 116,74 € ; fourgon + remorque bateau 288,64 € ; cabine 4 lits - intérieure 56,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 34,38 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 414,38 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-28&passengers=ADULT,ADULT"
   },
   {
@@ -181,10 +181,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 473.66,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 105,56 € ; fourgon + remorque bateau 297,10 € ; cabine 2 lits bas - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 47,66 € ; sans cabine : 411,66 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 105,56 € ; fourgon + remorque bateau 297,10 € ; cabine 2 lits bas - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 47,66 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (2 lits bas - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (2 lits bas - intérieure) ; sans cabine : 411,66 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-18&passengers=ADULT,ADULT"
   },
   {
@@ -200,15 +200,15 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 473.66,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 105,56 € ; fourgon + remorque bateau 297,10 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 47,66 € ; sans cabine : 411,66 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 105,56 € ; fourgon + remorque bateau 297,10 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 47,66 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 411,66 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-20&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "aller",
    "date": "2027-07-26",
    "heure_depart": "18:45",
@@ -219,15 +219,15 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 523.01,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 116,20 € ; fourgon + remorque bateau 335,81 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 31,01 € ; sans cabine : 461,01 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 116,20 € ; fourgon + remorque bateau 335,81 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 31,01 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 461,01 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-26&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "aller",
    "date": "2027-07-28",
    "heure_depart": "18:45",
@@ -238,10 +238,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 523.01,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 116,20 € ; fourgon + remorque bateau 335,81 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 31,01 € ; sans cabine : 461,01 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 116,20 € ; fourgon + remorque bateau 335,81 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 31,01 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 461,01 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-28&passengers=ADULT,ADULT"
   },
   {
@@ -279,7 +279,7 @@
    "detail_prix": "Traversée 2027 affichée sur Ferryhopper (réservations ouvertes) mais aucune option remorque, véhicules limités à 9 m",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "corsica-ferries.fr bloque encore le robot le 10/11 (vérification Cloudflare, HTTP 403) ; info Ferryhopper du 03/11 (pas d'option remorque, véhicules ≤ 9 m) → devis à demander à Corsica Ferries",
+   "remarque": "corsica-ferries.fr bloque encore le robot le 11/11 (vérification Cloudflare, HTTP 403) ; info Ferryhopper du 03/11 (pas d'option remorque, véhicules ≤ 9 m) → devis à demander à Corsica Ferries",
    "lien": "https://www.corsica-ferries.fr/"
   },
   {
@@ -298,7 +298,7 @@
    "detail_prix": "Le fourgon Jumper H2L2 seul est déjà refusé en ligne sur ce navire",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Le fourgon Jumper H2L2 seul est déjà refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
+   "remarque": "Le fourgon Jumper H2L2 seul est refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-15&passengers=ADULT,ADULT"
   },
   {
@@ -317,7 +317,7 @@
    "detail_prix": "Le fourgon Jumper H2L2 seul est déjà refusé en ligne sur ce navire",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Le fourgon Jumper H2L2 seul est déjà refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
+   "remarque": "Le fourgon Jumper H2L2 seul est refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-17&passengers=ADULT,ADULT"
   },
   {
@@ -336,46 +336,8 @@
    "detail_prix": "Le fourgon Jumper H2L2 seul est déjà refusé en ligne sur ce navire",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Le fourgon Jumper H2L2 seul est déjà refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
+   "remarque": "Le fourgon Jumper H2L2 seul est refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-19&passengers=ADULT,ADULT"
-  },
-  {
-   "compagnie": "Corsica Linea",
-   "navire": "A Galeotta",
-   "sens": "aller",
-   "date": "2027-07-29",
-   "heure_depart": "18:00",
-   "heure_arrivee": "06:30",
-   "port_depart": "Marseille",
-   "port_arrivee": "Bastia",
-   "nuit": true,
-   "hebergement": "—",
-   "prix_total": null,
-   "statut": "complet",
-   "detail_prix": "Ensemble refusé en ligne",
-   "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
-   "tendance": "NOUVEAU",
-   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
-   "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-29&passengers=ADULT,ADULT"
-  },
-  {
-   "compagnie": "Corsica Linea",
-   "navire": "Capu Rossu",
-   "sens": "aller",
-   "date": "2027-07-30",
-   "heure_depart": "18:15",
-   "heure_arrivee": "06:45",
-   "port_depart": "Marseille",
-   "port_arrivee": "Ajaccio",
-   "nuit": true,
-   "hebergement": "—",
-   "prix_total": null,
-   "statut": "complet",
-   "detail_prix": "Ensemble refusé en ligne",
-   "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
-   "tendance": "NOUVEAU",
-   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
-   "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-30&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
@@ -390,11 +352,49 @@
    "hebergement": "—",
    "prix_total": null,
    "statut": "complet",
-   "detail_prix": "Ensemble non chiffrable en ligne",
+   "detail_prix": "Ensemble refusé en ligne",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Le 10/11, l'option remorque n'a pas pu être ajoutée (3 essais) ; déjà refusé les jours précédents (« Véhicule indisponible ») ; centre de vente Corsica Linea 0825 88 80 88",
+   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-15&passengers=ADULT,ADULT"
+  },
+  {
+   "compagnie": "Corsica Linea",
+   "navire": "Pascal Paoli",
+   "sens": "aller",
+   "date": "2027-07-16",
+   "heure_depart": "18:00",
+   "heure_arrivee": "06:30",
+   "port_depart": "Marseille",
+   "port_arrivee": "Bastia",
+   "nuit": true,
+   "hebergement": "—",
+   "prix_total": null,
+   "statut": "complet",
+   "detail_prix": "Ensemble refusé en ligne",
+   "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
+   "tendance": "NOUVEAU",
+   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
+   "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-16&passengers=ADULT,ADULT"
+  },
+  {
+   "compagnie": "Corsica Linea",
+   "navire": "Pascal Paoli",
+   "sens": "aller",
+   "date": "2027-07-26",
+   "heure_depart": "18:00",
+   "heure_arrivee": "06:30",
+   "port_depart": "Marseille",
+   "port_arrivee": "Bastia",
+   "nuit": true,
+   "hebergement": "—",
+   "prix_total": null,
+   "statut": "complet",
+   "detail_prix": "Ensemble refusé en ligne",
+   "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
+   "tendance": "NOUVEAU",
+   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
+   "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CONTINENT_CORSE&vehicles=VAN&outwardDate=2027-07-26&passengers=ADULT,ADULT"
   }
  ],
  "retours": [
@@ -411,15 +411,15 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 495.72,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 123,82 € ; fourgon + remorque bateau 300,90 € ; cabine 2 lits bas - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 53,72 € ; sans cabine : 433,72 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 123,82 € ; fourgon + remorque bateau 300,90 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 53,72 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (2 lits bas - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 433,72 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-30&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "retour",
    "date": "2027-08-15",
    "heure_depart": "21:30",
@@ -430,10 +430,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 527.91,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 118,02 € ; fourgon + remorque bateau 338,89 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 € ; sans cabine : 465,91 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 118,02 € ; fourgon + remorque bateau 338,89 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 465,91 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-15&passengers=ADULT,ADULT"
   },
   {
@@ -449,15 +449,15 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 530.74,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 119,00 € ; fourgon + remorque bateau 340,74 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 38,74 € ; sans cabine : 468,74 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 119,00 € ; fourgon + remorque bateau 340,74 € ; cabine 4 lits - intérieure 62,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 38,74 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 468,74 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-15&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "retour",
    "date": "2027-08-19",
    "heure_depart": "18:00",
@@ -489,13 +489,13 @@
    "statut": "en ligne",
    "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 139,82 € ; fourgon + remorque bateau 422,90 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 53,72 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
-   "tendance": "▼ -55 € (sans cabine, était cabine intérieure 2 pers.)",
-   "remarque": "aucune cabine intérieure disponible en ligne : prix sans cabine (place non attribuée) ; au 09/11 : 626,72 € en cabine intérieure 2 pers.",
+   "tendance": "=",
+   "remarque": "aucune cabine intérieure disponible en ligne : prix sans cabine (place non attribuée)",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-16&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "retour",
    "date": "2027-08-17",
    "heure_depart": "18:00",
@@ -506,15 +506,15 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 632.91,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 134,02 € ; fourgon + remorque bateau 410,89 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 € ; sans cabine : 553,91 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 134,02 € ; fourgon + remorque bateau 410,89 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 553,91 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-17&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "retour",
    "date": "2027-08-24",
    "heure_depart": "18:00",
@@ -525,15 +525,15 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 632.91,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 134,02 € ; fourgon + remorque bateau 410,89 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 € ; sans cabine : 553,91 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 134,02 € ; fourgon + remorque bateau 410,89 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 553,91 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-24&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
-   "navire": "Capu Di Muru",
+   "navire": "Capu di Muru",
    "sens": "retour",
    "date": "2027-08-26",
    "heure_depart": "18:00",
@@ -544,10 +544,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 632.91,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 134,02 € ; fourgon + remorque bateau 410,89 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 € ; sans cabine : 553,91 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 134,02 € ; fourgon + remorque bateau 410,89 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 35,91 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 553,91 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-26&passengers=ADULT,ADULT"
   },
   {
@@ -563,10 +563,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 635.74,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 135,00 € ; fourgon + remorque bateau 412,74 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 38,74 € ; sans cabine : 556,74 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 135,00 € ; fourgon + remorque bateau 412,74 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 38,74 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 556,74 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-17&passengers=ADULT,ADULT"
   },
   {
@@ -582,10 +582,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 635.74,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 135,00 € ; fourgon + remorque bateau 412,74 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 38,74 € ; sans cabine : 556,74 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 135,00 € ; fourgon + remorque bateau 412,74 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 38,74 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 556,74 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-24&passengers=ADULT,ADULT"
   },
   {
@@ -601,10 +601,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 650.72,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 139,82 € ; fourgon + remorque bateau 422,90 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 53,72 € ; sans cabine : 571,72 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 139,82 € ; fourgon + remorque bateau 422,90 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 53,72 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 571,72 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-26&passengers=ADULT,ADULT"
   },
   {
@@ -620,10 +620,10 @@
    "hebergement": "Cabine intérieure 2 pers.",
    "prix_total": 747.72,
    "statut": "en ligne",
-   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 155,82 € ; fourgon + remorque bateau 503,90 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 53,72 € ; sans cabine : 668,72 €",
+   "detail_prix": "Tarif Standard (Corsica Linea) ; 2 adultes 155,82 € ; fourgon + remorque bateau 503,90 € ; cabine 4 lits - intérieure 79,00 € ; dont frais de dossier 9,00 € ; contribution carbone 31,00 € ; taxes 53,72 €",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure)",
+   "remarque": "cabine intérieure la moins chère proposée (4 lits - intérieure) ; sans cabine : 668,72 €",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-24&passengers=ADULT,ADULT"
   },
   {
@@ -642,7 +642,7 @@
    "detail_prix": "Le fourgon Jumper H2L2 seul est déjà refusé en ligne sur ce navire",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Le fourgon Jumper H2L2 seul est déjà refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
+   "remarque": "Le fourgon Jumper H2L2 seul est refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-15&passengers=ADULT,ADULT"
   },
   {
@@ -661,7 +661,7 @@
    "detail_prix": "Le fourgon Jumper H2L2 seul est déjà refusé en ligne sur ce navire",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Le fourgon Jumper H2L2 seul est déjà refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
+   "remarque": "Le fourgon Jumper H2L2 seul est refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-17&passengers=ADULT,ADULT"
   },
   {
@@ -680,8 +680,27 @@
    "detail_prix": "Le fourgon Jumper H2L2 seul est déjà refusé en ligne sur ce navire",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Le fourgon Jumper H2L2 seul est déjà refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
+   "remarque": "Le fourgon Jumper H2L2 seul est refusé sur l'Alba Nova (navire La Méridionale vendu aussi par Corsica Linea) : « Véhicule indisponible actuellement avec les informations saisies » → devis La Méridionale 09 70 83 20 20",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-19&passengers=ADULT,ADULT"
+  },
+  {
+   "compagnie": "Corsica Linea",
+   "navire": "Pascal Paoli",
+   "sens": "retour",
+   "date": "2027-08-18",
+   "heure_depart": "18:00",
+   "heure_arrivee": "07:00",
+   "port_depart": "Bastia",
+   "port_arrivee": "Marseille",
+   "nuit": true,
+   "hebergement": "—",
+   "prix_total": null,
+   "statut": "complet",
+   "detail_prix": "Ensemble refusé en ligne",
+   "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
+   "tendance": "devenu complet",
+   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
+   "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-18&passengers=ADULT,ADULT"
   },
   {
    "compagnie": "Corsica Linea",
@@ -699,7 +718,7 @@
    "detail_prix": "Ensemble refusé en ligne",
    "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
    "tendance": "=",
-   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
+   "remarque": "Fourgon Jumper H2L2 seul déjà refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-16&passengers=ADULT,ADULT"
   },
   {
@@ -758,25 +777,6 @@
    "tendance": "=",
    "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
    "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-26&passengers=ADULT,ADULT"
-  },
-  {
-   "compagnie": "Corsica Linea",
-   "navire": "Capu Rossu",
-   "sens": "retour",
-   "date": "2027-08-30",
-   "heure_depart": "18:00",
-   "heure_arrivee": "07:00",
-   "port_depart": "Bastia",
-   "port_arrivee": "Marseille",
-   "nuit": true,
-   "hebergement": "—",
-   "prix_total": null,
-   "statut": "complet",
-   "detail_prix": "Ensemble refusé en ligne",
-   "vehicule": "Jumper L2H2 5,41 m × 2,52 m + remorque bateau 9 m (H 2,5 × l 2,5 m supposés), 14,4 m au total",
-   "tendance": "=",
-   "remarque": "Fourgon + remorque bateau 9 m refusé en ligne (« Véhicule indisponible actuellement avec les informations saisies ») : garage probablement plein pour ce gabarit ; centre de vente Corsica Linea 0825 88 80 88",
-   "lien": "https://www.corsicalinea.com/tsw/search/departure/crossing?route=CORSE_CONTINENT&vehicles=VAN&outwardDate=2027-08-30&passengers=ADULT,ADULT"
   }
  ]
 }
